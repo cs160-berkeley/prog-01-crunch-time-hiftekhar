@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Counting Those Calories</string>
+    <string name="action_settings">Settings</string>
+    <string name="Minutes">minutes</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_globals">Globals</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="title_activity_first">First</string>
+    <string name="title_activity_exercise_calc">ExerciseCalc</string>
+</resources>

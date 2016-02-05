@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.hudaiftekhar.countingthosecalories.home"
+    tools:showIn="@layout/activity_home"
+    android:touchscreenBlocksFocus="false">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Enter repetitions/minutes of exercises or target # of calories. "
+        android:id="@+id/textView"
+        android:typeface="sans"
+        android:layout_marginTop="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="55dp"
+        android:id="@+id/radioGroup5"
+        android:weightSum="1"
+        android:layout_alignParentEnd="true">
+
+        <RadioButton
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:text="Minutes"
+            android:id="@+id/radioButton2"
+            android:layout_gravity="center_horizontal"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:text="Calories"
+            android:id="@+id/radioButton16"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:onClick="sendNextScreen" />
+
+        <RadioButton
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:text="Repetitions"
+            android:id="@+id/radioButton"
+            android:layout_gravity="center_horizontal"
+            android:checked="false" />
+
+        <Button
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:id="@+id/button"
+            android:layout_below="@+id/radioGroup4"
+            android:layout_centerHorizontal="true"
+            android:onClick="sendNextScreen"
+            android:layout_gravity="center_horizontal" />
+
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_below="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+</RelativeLayout>

@@ -1,22 +1,32 @@
 # PROG 01: Crunch Time
 
-Briefly describe your app here.
+The purpose of my app is to help users keep track of calories used. Users can enter in the number of repetitions/minutes they did of an exercise, and the app will tell you how many calories you used up and equivalent workout sizes. Users can also enter their goal amount of calories, and it will provide all the different exercises you can do. 
 
 ## Authors
 
-FirstName LastName ([your_email@berkeley.edu](mailto:your_email@berkeley.edu))
+Huda Iftekhar ([hiftekhar@berkeley.edu](mailto:hiftekhar@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://link_to_your_video)
+See https://www.youtube.com/watch?v=2p0aXiBioA4
 
 ## Screenshots
 
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
+<img src="screenshots/HowManyCalories.png" height="400" alt="Screenshot"/>
+<img src="screenshots/MainScreen.png" height="400" alt="Screenshot"/>
+<img src="screenshots/MainScreenInput.png" height="400" alt="Screenshot"/>
+<img src="screenshots/MainScreenOpt1.png" height="400" alt="Screenshot"/>
+<img src="screenshots/MainScreenOpt3.png" height="400" alt="Screenshot"/>
+<img src="screenshots/NumberCalories.png" height="400" alt="Screenshot"/>
+<img src="screenshots/HowManyCalories.png" height="400" alt="Screenshot"/>
+<img src="screenshots/SecondScreen.png" height="400" alt="Screenshot"/>
+<img src="screenshots/ShowWhichExercises.png" height="400" alt="Screenshot"/>
+<img src="screenshots/WhichExercise.png" height="400" alt="Screenshot"/>
+
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Any other support
+* the image of exercising used on my app.
+http://www.riskmanagement365.com/wp-content/uploads/2013/03/physical-exercise.jpg
 
-*Feel free to enhance your README. For Markdown syntax, see [the GitHub Guides](https://guides.github.com/features/mastering-markdown/). Remove this line in your submission.*
+
